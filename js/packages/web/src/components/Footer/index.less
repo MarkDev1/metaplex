@@ -13,6 +13,8 @@
   .sub-header {
     color: @accent-color;
     font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 20px;
   }
 
   .subscriber-text{
@@ -110,13 +112,15 @@
 
   .footer-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     @media (max-width: @mobile-breakpoint) {
       flex-direction: column;
     }
 
     div.body-text {
       opacity: 1;
+      padding-bottom: 10px;
+      font-size: 16px;
     }
 
     .footer-community {
@@ -153,10 +157,10 @@
 
   .footer-foot {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     @media (max-width: @mobile-breakpoint) {
       flex-direction: column-reverse;
     }
@@ -180,6 +184,17 @@
         flex-wrap: wrap;
       }
     }
+  }
+
+  .footer_foot_right_pages{
+    display: flex;
+    align-items: center;
+    
+  }
+  .footer_foot_right_pages p{
+    margin: 0 10px;
+    color:#c7c6c5;
+    cursor: pointer;
   }
 
 }

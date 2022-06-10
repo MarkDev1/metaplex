@@ -10,6 +10,8 @@ import { HowToBuyModal } from '../../../../components/HowToBuyModal';
 
 import { useAuctionsList } from './hooks/useAuctionsList';
 import { AuctionRenderCard } from '../../../../components/AuctionRenderCard';
+import HowItWorks from '../../../../components/Layout/HomePageComponents/HowItWorks';
+import FeaturedIcons from '../../../../components/Layout/HomePageComponents/FeaturedIcons';
 
 const { TabPane } = Tabs;
 const { Content } = Layout;
@@ -43,9 +45,9 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
     <>
       {!props.collectionMintFilter && (
         <Banner
-          src="/main-banner.svg"
-          headingText="The amazing world of Metaplex."
-          subHeadingText="Buy exclusive Metaplex NFTs."
+          src="/bannerimg.png"
+          headingText="The amazing world of Proxime."
+          subHeadingText="Buy exclusive Proxime NFTs."
           actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
           useBannerBg
         />
@@ -103,6 +105,8 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
               </div>
             </Row>
           </Col>
+          <HowItWorks/>
+          <FeaturedIcons/>
         </Content>
       </Layout>
     </>

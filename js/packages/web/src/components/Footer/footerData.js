@@ -5,53 +5,53 @@ export const footerConf = {
     'Join our mailing list for updates about our artists and more.',
   components: [
     {
-      title: 'Company',
+      title: 'Quick Links',
       links: [
         {
-          label: 'About',
-          url: 'www.solana.com',
+          label: 'Contact Us',
+          url: '',
         },
         {
-          label: 'Terms of service',
-          url: 'www.solana.com',
+          label: 'Leader Board',
+          url: '',
         },
-      ],
-    },
-    {
-      title: 'Help',
-      links: [
+        {
+          label: 'Blogs',
+          url: '',
+        },
+        {
+          label: 'Dashboard',
+          url: '',
+        },
         {
           label: 'FAQ',
-          url: 'www.solana.com',
-        },
-        {
-          label: 'Support',
-          url: 'www.solana.com',
-        },
-        {
-          label: 'Privacy policy',
-          url: 'www.solana.com',
-        },
-        {
-          label: 'Your purchases',
-          url: 'www.solana.com',
+          url: '',
         },
       ],
     },
     {
-      title: 'Follow us',
+      title: 'Featured',
       links: [
         {
-          label: 'Instagram',
-          url: 'www.solana.com',
+          label: 'Blog Details',
+          url: '',
+        },
+      ],
+    },
+    {
+      title: 'Contact Us',
+      links: [
+        {
+          label: '+000-000-000',
+          url: '',
         },
         {
-          label: 'Twitter',
-          url: 'www.solana.com',
+          label: 'demo@example.com',
+          url: '',
         },
         {
-          label: 'Discord',
-          url: 'www.solana.com',
+          label: 'Lorem ipsum dolor, sit Amet, Contect Etur.',
+          url: '',
         },
       ],
     },

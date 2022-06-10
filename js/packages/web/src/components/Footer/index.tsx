@@ -94,9 +94,10 @@ export const Footer = () => {
         {footerConf.showShopName ? (
           <div className="footer-community">
             <div className="sub-header">
-              {LABELS.STORE_NAME} NFT Marketplace
+            <img src={'/Proximelogo.png'} style={{width:"80px"}}/>
             </div>
-            <div className="footer-link">Powered by Metaplex and Solana</div>
+            <div className="footer-link">Powered by Proxime </div>
+            <div className="footer_social_icons"></div>
           </div>
         ) : null}
         {footerConf.components.map((component, ii) => (
@@ -116,18 +117,24 @@ export const Footer = () => {
             ))}
           </div>
         ))}
-        {footerConf.showEmailSubscriber ? (
+        {/* {footerConf.showEmailSubscriber ? (
           <div className="footer-section-container subscriber-container">
             <div className="subscriber-text">
               {footerConf.emailSubscriberText}
             </div>
             <NewsLetterForm />
           </div>
-        ) : null}
+        ) : null} */}
       </div>
       <div className="footer-foot">
         <div className="small-body footer-link">
-          2021 {LABELS.STORE_NAME} LLC, All rights reserved
+          @ 2022 Proxime Inc, All rights reserved
+        </div>
+        <div className="small-body footer-link">
+          <div className="footer_foot_right_pages">
+          <p>Terms & Conditions </p>
+          <p>Privacy Policy </p>
+          </div>
         </div>
       </div>
     </div>

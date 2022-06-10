@@ -3,7 +3,10 @@ import { Layout } from 'antd';
 
 import { AppBar } from '../AppBar';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { Footer } from '../Footer';
+import { Footer } from '../Footer/index';
+import HowItWorks from './HomePageComponents/HowItWorks';
+import FeaturedIcons from './HomePageComponents/FeaturedIcons';
+
 
 const { Header, Content } = Layout;
 
@@ -26,9 +29,11 @@ export const AppLayout = React.memo(function AppLayoutImpl(props: any) {
             }}
           >
             {props.children}
+  
           </Content>
-        </Layout>
-        {/*<Footer />*/}
+
+        </Layout>    
+        <Footer />
       </Layout>
     </>
   );
